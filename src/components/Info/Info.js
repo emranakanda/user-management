@@ -1,5 +1,7 @@
 import React from 'react';
-import './Info.css'
+import './Info.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 
 
 const Info = (props) => {
@@ -20,7 +22,7 @@ const Info = (props) => {
                 <p><b>Website:</b> {website}</p>
                 <button className="main-button"
                     onClick = {()=> props.handleAddBasket(props.usrInfo)}
-                >Add Me Basket</button>
+                > <FontAwesomeIcon icon={faUserPlus} /> Add Me Basket</button>
             </div>
         </div>
     );
