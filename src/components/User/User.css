@@ -1,0 +1,15 @@
+.user-container {
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(207, 222, 250);
+}
+
+.user-information {
+    width: 70%;
+    margin-left: 150px;
+    border-right: 1px solid lightslategrey;
+}
+
+.count-salary {
+    margin: 0 20px;
+}
